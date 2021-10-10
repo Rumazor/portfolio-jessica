@@ -195,3 +195,88 @@ header {
     border: 1px solid black;
     padding: 0px 16px 0px 16px
 }
+
+.skills-container {
+    width: 100%;
+    padding: 16px;
+}
+
+.skills-container h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 500;
+    color:var(--main-black)
+}
+
+.skills-container h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight:  500;
+    line-height: 2.2rem;
+    color:var(--main-black);
+    text-decoration: underline;
+    padding-top: 40px;
+}
+
+.skills-container p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight:  500;
+    line-height: 2.4rem;
+    color:var(--main-black);
+    padding-top: 24px;
+}
+
+.quote-section {
+    width: 100%;
+    padding: 16px 16px 64px 16px;
+    margin-top: 64px;
+}
+
+.quote-section h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-weight: 500;
+    color:var(--main-black)
+}
+
+.quote-section h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+    color: #883F16;
+    padding-top: 24px;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 0px 16px 64px 16px;
+}
+
+.contact-section h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.6rem;
+    line-height: 2.4rem;
+    color: var(--main-black);
+}
+
+.contact-nav ul {
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    justify-content:left;
+}
+
+.contact-nav ul li a {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.1rem;
+    line-height: 2.5rem;
+    color: var(--main-black);
+    margin-left: 34px;
+}
