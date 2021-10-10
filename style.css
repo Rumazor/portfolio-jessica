@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+:root {
+    /* Colores */
+    --main-black: #181717;
+    --main-white: #F3F3F3;
+    --main-grey: #606060;
+    --bg: #FAF7F0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+
+header {
+    width: 100%;
+}
+
+.menu {
+    display:flex;
+    padding: 16px;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.menu-logo {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: #000;
+}
+
+
+.menu-navbar{
+    align-self: center;
+    display: none;
+}
+
+.menu-navbar ul {
+    display:flex;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: -3%;
+}
+
+
+.menu-navbar ul li a {
+    color:var(--main-black);
+    margin-left: 35px;
+}
+
+
+
+.hero {
+    width: 100%;
+    padding: 16px;
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+    z-index: 6;
+}
+
+.hero h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 4.8rem;
+    z-index: 5;
+    position: relative;
+}
+
+.hero p {
+    margin-top: 24px;
+    color: var(--main-grey);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+}
+
+.ellipse2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: -12.5rem;
+    top: 52rem;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(126, 55, 246, 0.5) 0%, rgba(191, 53, 142, 0) 90%);
+    backdrop-filter: (199px);
+}
+
+.hero-pill {
+    margin-top: 24px;
+    text-align: center;
+    background-color: var(--main-black);
+    padding: 12px 32px 12px 32px;
+    border-radius: 20px;
+}
+.hero-pill a {
+    color:var(--main-white);
+    padding: 12px 32px 12px 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 500;
+}
+
+.proyect-container {
+    width: 100%;
+    padding: 16px
+}
+
+.project1 img {
+    width: 100%;
+    padding-top:  40px;
+    max-width: 480px;
+}
+
+.project1  h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 4.8rem;
+    padding-top: 16px;
+}
+
+
+.project1 h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    padding-top: 16px;
+}
+
+.project1 p  {
+    font-family:'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color:var(--main-grey);
+    padding-top: 16px;
+}
+
+.project-pill {
+    padding-top: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-pill a {
+    padding: 12px 32px 12px 32px;
+    background-color: var(--main-black);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--main-white);
+    border-radius: 10px;
+}
+
+.project-pill h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--main-black);
+    align-self: center;
+    text-decoration: underline;
+}
+
+.division {
+    align-self: center;
+    margin-top: 40px;
+    border: 1px solid black;
+    padding: 0px 16px 0px 16px
+}
