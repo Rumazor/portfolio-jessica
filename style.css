@@ -75,7 +75,7 @@ header {
 
 .hero img{
     width: 100%;
-    max-width: 480px;
+    max-width: 764px;
     position: relative;
     z-index: 6;
 }
@@ -132,8 +132,8 @@ header {
 
 .project1 img {
     width: 100%;
-    padding-top:  40px;
-    max-width: 480px;
+    padding-top: 40px;
+    max-width: 764px;
 }
 
 .project1  h2 {
