@@ -87,6 +87,7 @@ header {
     line-height: 4.8rem;
     z-index: 5;
     position: relative;
+    padding-top: 16px;
 }
 
 .hero p {
