@@ -201,7 +201,8 @@ header {
 
 .skills-container {
     width: 100%;
-    padding: 16px;
+    padding: 0px 16px;
+    margin-top: 64px;
 }
 
 .skills-container h2 {
@@ -233,7 +234,7 @@ header {
 
 .quote-section {
     width: 100%;
-    padding: 16px 16px 64px 16px;
+    padding: 0 16px;
     margin-top: 64px;
 }
 
@@ -252,6 +253,7 @@ header {
     font-weight: 400;
     color: #883F16;
     padding-top: 24px;
+    margin-bottom: 64px;
 }
 
 .contact-section {
