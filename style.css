@@ -63,6 +63,8 @@ header {
 .menu-navbar ul li a {
     color:var(--main-black);
     margin-left: 35px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -127,7 +129,7 @@ header {
 
 .proyect-container {
     width: 100%;
-    padding: 16px
+    padding: 16px;
 }
 
 .project1 img {
@@ -280,6 +282,8 @@ header {
     line-height: 2.5rem;
     color: var(--main-black);
     margin-right: 34px;
+    display:flex;
+    align-items: center;
 }
 
 @media (min-width: 1024px) {
@@ -346,10 +350,10 @@ header {
 
     .ellipse2 {
         position: absolute;
-        width: 400px;
-        height: 400px;
-        left: -14.5rem;
-        top: 0rem;
+        width: 650px;
+        height: 650px;
+        left: -36.5rem;
+        top: -16rem;
         background: radial-gradient(50% 50% at 50% 50%, rgba(126, 55, 246, 0.5) 30%, rgba(191, 53, 142, 0) 100%);
         backdrop-filter: (300px);
     }
@@ -367,6 +371,7 @@ header {
     .project1 img {
         padding: 40px 0px 64px 0px;
         width: 50%;
+        z-index: 20;
     }
     .projects-title {
         font-size: 4rem;
@@ -428,5 +433,15 @@ header {
 
     .contact-section {
         padding: 64px 240px 64px 240px
+    }
+    
+    .contact-nav li a:hover {
+        transition: .6s all;
+        transform: scale(1.2);
+    }
+    
+    .project-pill a:hover {
+        transition: .6s all;
+        transform: scale(1.1);
     }
 }
