@@ -409,3 +409,24 @@ header {
     }
 }
 
+@media (min-width: 1536px) {
+    .hero {
+        padding: 40px 240px 0px 240px
+    }
+
+    .proyect-container {
+        padding: 40px 240px 0px 240px
+    }
+
+    .skills-container {
+        padding: 40px 240px 0px 240px
+    }
+
+    .quote-section {
+        padding: 0px 240px
+    }
+
+    .contact-section {
+        padding: 64px 240px 64px 240px
+    }
+}
