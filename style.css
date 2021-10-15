@@ -172,7 +172,7 @@ header {
 }
 
 .project-pill a {
-    padding: 12px 32px 12px 32px;
+    padding: 6px 12px;
     background-color: var(--main-black);
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -272,6 +272,7 @@ header {
 
 .contact-nav ul {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     padding-top: 64px;
     justify-content:left;
@@ -337,7 +338,7 @@ header {
 
     .hero-pill {
         width:70%;
-        margin-top: 24px;
+        margin: 24px auto;
         text-align: center;
         background-color: var(--main-black);
         padding: 12px 32px 12px 32px;
@@ -413,9 +414,16 @@ header {
         padding: 64px 160px 64px 160px;
     }
 
-    .contact-nav ul {
-        justify-content: end;
+    .contact-nav {
+        display:flex;
     }
+    .contact-nav ul {
+        display:flex;
+        justify-content: end;
+        flex-wrap: wrap;
+    }
+
+
 }
 
 @media (min-width: 1440px) {
@@ -425,10 +433,7 @@ header {
         padding: 40px 240px 0px 240px;
     }
 
-    .hero-pill {
-        width:50%;
-    }
-    
+
     .hero-pill a {
         color:var(--main-white);
         padding: 12px 32px 12px 32px;
