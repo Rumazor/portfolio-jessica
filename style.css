@@ -288,6 +288,8 @@ header {
     align-items: center;
 }
 
+
+
 @media (min-width: 1024px) {
 
     header {
@@ -304,7 +306,7 @@ header {
     .hero {
         display:flex;
         flex-direction: row-reverse;
-        padding: 40px 160px 0px 160px;
+        padding: 40px 60px 0px 60px;
     }
 
     .hero-container {
@@ -334,7 +336,7 @@ header {
     }
 
     .hero-pill {
-        width:50%;
+        width:70%;
         margin-top: 24px;
         text-align: center;
         background-color: var(--main-black);
@@ -343,7 +345,7 @@ header {
     }
     .hero-pill a {
         color:var(--main-white);
-        padding: 12px 32px 12px 32px;
+        padding: 2px 2px 2px 2px;
         font-family: 'Inter', sans-serif;
         font-size: 1.8rem;
         line-height: 2.4rem;
@@ -362,7 +364,7 @@ header {
 
     .proyect-container {
         width: 100%;
-        padding: 88px 160px
+        padding: 88px 60px
     }
 
     .project1 {
@@ -380,11 +382,11 @@ header {
         padding: 0px 160px 0px 160px
     }
     .project1-container, .project2-container, .project3-container {
-        padding: 101px 101px;
+        padding: 100px 30px;
     }
 
     .project-pill {
-        padding: 24px 16px 0px 16px;
+        padding: 24px 24px;
         justify-content: space-evenly;
     }
 
@@ -414,6 +416,37 @@ header {
     .contact-nav ul {
         justify-content: end;
     }
+}
+
+@media (min-width: 1440px) {
+    .hero {
+        display:flex;
+        flex-direction: row-reverse;
+        padding: 40px 240px 0px 240px;
+    }
+
+    .hero-pill {
+        width:50%;
+    }
+    
+    .hero-pill a {
+        color:var(--main-white);
+        padding: 12px 32px 12px 32px;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+    }
+
+    .proyect-container {
+        width: 100%;
+        padding: 88px 160px
+    }
+
+    .project1-container, .project2-container, .project3-container {
+        padding: 100px 50px;
+    }
+
 }
 
 @media (min-width: 1536px) {
